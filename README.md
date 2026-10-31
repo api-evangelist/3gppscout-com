@@ -1,4 +1,4 @@
-# 3gppscout-com
+# 3GPP Scout
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,132 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-3gppscout-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://3gppscout.com/
+3GPP Scout provides a hosted 3GPP MCP server and REST API that enables semantic search across the full 3GPP TS/TR corpus from Release 15 through Release 20. Users can query standards documents, receive exact release, section, and source text citations, and integrate the service via AI agents. The free Explorer plan offers 150 API/MCP requests per month without requiring a credit card.
+
+**Areas:** 3GPP · Standards · Search · API · AI
+
+## 3GPP Scout on APIs.io
+
+Everything profiled for 3GPP Scout is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/3gppscout-com/](https://apis.io/providers/3gppscout-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (13)
+
+- [3GPP Scout Analysis API](https://apis.io/apis/3gppscout-com/3gppscout-com-analysis-api/) — The analysis API from 3GPP Scout — 2 operation(s) for analysis.
+- [3GPP Scout Documents API](https://apis.io/apis/3gppscout-com/3gppscout-com-documents-api/) — The documents API from 3GPP Scout — 2 operation(s) for documents.
+- [3GPP Scout Follow API](https://apis.io/apis/3gppscout-com/3gppscout-com-follow-api/) — The follow API from 3GPP Scout — 8 operation(s) for follow.
+- [3GPP Scout Images API](https://apis.io/apis/3gppscout-com/3gppscout-com-images-api/) — The images API from 3GPP Scout — 1 operation(s) for images.
+- [3GPP Scout Meetings API](https://apis.io/apis/3gppscout-com/3gppscout-com-meetings-api/) — The meetings API from 3GPP Scout — 4 operation(s) for meetings.
+- [3GPP Scout News API](https://apis.io/apis/3gppscout-com/3gppscout-com-news-api/) — The news API from 3GPP Scout — 1 operation(s) for news.
+- [3GPP Scout Organizations API](https://apis.io/apis/3gppscout-com/3gppscout-com-organizations-api/) — The organizations API from 3GPP Scout — 2 operation(s) for organizations.
+- [3GPP Scout Positions API](https://apis.io/apis/3gppscout-com/3gppscout-com-positions-api/) — The positions API from 3GPP Scout — 2 operation(s) for positions.
+- [3GPP Scout Rfcs API](https://apis.io/apis/3gppscout-com/3gppscout-com-rfcs-api/) — The rfcs API from 3GPP Scout — 2 operation(s) for rfcs.
+- [3GPP Scout Search API](https://apis.io/apis/3gppscout-com/3gppscout-com-search-api/) — The search API from 3GPP Scout — 3 operation(s) for search.
+- [3GPP Scout Sections API](https://apis.io/apis/3gppscout-com/3gppscout-com-sections-api/) — The sections API from 3GPP Scout — 6 operation(s) for sections.
+- [3GPP Scout System API](https://apis.io/apis/3gppscout-com/3gppscout-com-system-api/) — The system API from 3GPP Scout — 1 operation(s) for system.
+- [3GPP Scout Tdocs API](https://apis.io/apis/3gppscout-com/3gppscout-com-tdocs-api/) — The tdocs API from 3GPP Scout — 5 operation(s) for tdocs.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [3Gppscout Com Agentic Access](https://apis.io/agentic-access/3gppscout-com/3gppscout-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [CombinedSearchRequest](https://apis.io/schemas/3gppscout-com/3gppscout-com-combined-search-request/)
+- [CreateTrackerRequest](https://apis.io/schemas/3gppscout-com/3gppscout-com-create-tracker-request/)
+- [ImageSearchRequest](https://apis.io/schemas/3gppscout-com/3gppscout-com-image-search-request/)
+- [SectionResult](https://apis.io/schemas/3gppscout-com/3gppscout-com-section-result/)
+- [SectionWindow](https://apis.io/schemas/3gppscout-com/3gppscout-com-section-window/)
+- [TextSearchRequest](https://apis.io/schemas/3gppscout-com/3gppscout-com-text-search-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [3Gppscout Com Context](https://apis.io/jsonld/3gppscout-com/3gppscout-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [3GPP Scout API Rules](https://apis.io/rules/3gppscout-com/3gppscout-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [3Gppscout Com Authentication](https://apis.io/security/3gppscout-com/3gppscout-com-authentication/)
+- [3Gppscout Com Domain Security](https://apis.io/security/3gppscout-com/3gppscout-com-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://3gppscout.com/)
+- [Documentation](https://api.3gppscout.com/docs)
+- [API reference](https://api.3gppscout.com/redoc)
+- [Support](https://3gppscout.com/support)
+- [Terms of service](https://3gppscout.com/terms)
+- [Privacy policy](https://3gppscout.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 44.6** — developing · rubric 0.25.0 · scored 2026-10-31
+
+| Facet | Score |
+|---|---|
+| Discoverability | 64.3 |
+| Contract quality | 53.9 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 49.3 |
+| Access clarity | 21.1 |
+
+**Agent readiness 52.3** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 22.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/3gppscout-com/](https://apis.io/providers/3gppscout-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for 3GPP Scout: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/3gppscout-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
