@@ -66,7 +66,7 @@
 
 3GPP Scout provides a hosted 3GPP MCP server and REST API that enables semantic search across the full 3GPP TS/TR corpus from Release 15 through Release 20. Users can query standards documents, receive exact release, section, and source text citations, and integrate the service via AI agents. The free Explorer plan offers 150 API/MCP requests per month without requiring a credit card.
 
-**Areas:** 3GPP · Standards · Search · API · AI
+**Areas:** 3GPP · Standards · Search · Artificial Intelligence
 
 ## 3GPP Scout on APIs.io
 
@@ -96,17 +96,25 @@ Each property below is a page on APIs.io carrying the machine-readable artifact 
 
 Which operations an agent can call, which act, and which need a human in the loop.
 
-- [3Gppscout Com Agentic Access](https://apis.io/agentic-access/3gppscout-com/3gppscout-com-agentic-access/)
+- [3GPP Scout Agentic Access](https://apis.io/agentic-access/3gppscout-com/3gppscout-com-agentic-access/)
 
-#### JSON Schema (6)
+#### JSON Schema (14)
 
 The data models the API reads and writes.
 
 - [CombinedSearchRequest](https://apis.io/schemas/3gppscout-com/3gppscout-com-combined-search-request/)
 - [CreateTrackerRequest](https://apis.io/schemas/3gppscout-com/3gppscout-com-create-tracker-request/)
+- [DocumentInfo](https://apis.io/schemas/3gppscout-com/3gppscout-com-document-info/)
+- [HealthResponse](https://apis.io/schemas/3gppscout-com/3gppscout-com-health-response/)
 - [ImageSearchRequest](https://apis.io/schemas/3gppscout-com/3gppscout-com-image-search-request/)
+- [PositionSearchRequest](https://apis.io/schemas/3gppscout-com/3gppscout-com-position-search-request/)
+- [ProposalComparisonRequest](https://apis.io/schemas/3gppscout-com/3gppscout-com-proposal-comparison-request/)
+- [ProposalComparisonResponse](https://apis.io/schemas/3gppscout-com/3gppscout-com-proposal-comparison-response/)
+- [RfcSearchRequest](https://apis.io/schemas/3gppscout-com/3gppscout-com-rfc-search-request/)
 - [SectionResult](https://apis.io/schemas/3gppscout-com/3gppscout-com-section-result/)
 - [SectionWindow](https://apis.io/schemas/3gppscout-com/3gppscout-com-section-window/)
+- [TdocSearchRequest](https://apis.io/schemas/3gppscout-com/3gppscout-com-tdoc-search-request/)
+- [TdocsBatchRequest](https://apis.io/schemas/3gppscout-com/3gppscout-com-tdocs-batch-request/)
 - [TextSearchRequest](https://apis.io/schemas/3gppscout-com/3gppscout-com-text-search-request/)
 
 #### JSON-LD (1)
@@ -125,8 +133,8 @@ Spectral rulesets for the provider's contracts.
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [3Gppscout Com Authentication](https://apis.io/security/3gppscout-com/3gppscout-com-authentication/)
-- [3Gppscout Com Domain Security](https://apis.io/security/3gppscout-com/3gppscout-com-domain-security/)
+- [3GPP Scout Authentication](https://apis.io/security/3gppscout-com/3gppscout-com-authentication/)
+- [3GPP Scout Domain Security](https://apis.io/security/3gppscout-com/3gppscout-com-domain-security/)
 
 ## Where to find this API
 
@@ -141,25 +149,25 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 44.6** — developing · rubric 0.25.0 · scored 2026-10-31
+**Kin Score 39.3** — developing · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 64.3 |
+| Discoverability | 62.5 |
 | Contract quality | 53.9 |
-| Contract governance | 79.1 |
+| Contract governance | 22.0 |
 | Operational transparency | 0.0 |
 | Developer ergonomics | 49.3 |
-| Access clarity | 21.1 |
+| Access clarity | 31.9 |
 
-**Agent readiness 52.3** — agent-ready (gated down from agent-native)
+**Agent readiness 44.0** — agent-ready (gated down from agent-native)
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | yes |
-| Agentic Access | unknown |
+| Agentic Access | derived (partial credit) |
 | Reversibility Documented | — |
-| MCP Server | documented (partial credit) |
+| MCP Server | — |
 | Auth Clarity | served (partial credit) |
 | Idempotency | — |
 | Error Semantics | verified |
@@ -177,8 +185,12 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Agentic Commerce | — |
 | Pagination Ratio | — |
 | Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
 
-**Regulatory alignment 22.7** — Horizontal (data, software, accessibility, platform)
+**Regulatory alignment 17.3** — Horizontal (data, software, accessibility, platform)
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/3gppscout-com/](https://apis.io/providers/3gppscout-com/).
 
